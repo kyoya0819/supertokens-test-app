@@ -2318,10 +2318,10 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-libphonenumber-js@^1.9.43, libphonenumber-js@^1.9.47:
-  version "1.9.47"
-  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.9.47.tgz#0cb3d6a3dd8d917d364da48a5355bc3b1d145f5b"
-  integrity sha512-FIWFLJ2jUJi8SCztgd2k/isQHZedh7xuxOVifqFLwG/ogZtdH9TXFK92w/KWFj1lwoadqVedtLO3Jqp0q67PZw==
+libphonenumber-js@^1.9.43, libphonenumber-js@^1.9.44, libphonenumber-js@^1.9.47:
+  version "1.9.49"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.9.49.tgz#d431703cd699be2ccced5b95f26182a7c50a9227"
+  integrity sha512-/wEOIONcVboFky+lWlCaF7glm1FhBz11M5PHeCApA+xDdVfmhKjHktHS8KjyGxouV5CSXIr4f3GvLSpJa4qMSg==
 
 limiter@^1.1.5:
   version "1.1.5"
@@ -3558,10 +3558,10 @@ supertokens-js-override@^0.0.4:
   resolved "https://registry.yarnpkg.com/supertokens-js-override/-/supertokens-js-override-0.0.4.tgz#9af583fbc5e1f0195dbb358c4fcf75f44c76dc09"
   integrity sha512-r0JFBjkMIdep3Lbk3JA+MpnpuOtw4RSyrlRAbrzMcxwiYco3GFWl/daimQZ5b1forOiUODpOlXbSOljP/oyurg==
 
-supertokens-node@^8.4.0:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/supertokens-node/-/supertokens-node-8.4.0.tgz#16b1c8874e1472e05b9e55a23df386269afcc271"
-  integrity sha512-tLNdXMBmRSy5DFhQCHHadd6utRjRXVFKudSl64MiKo3v6Z1TWaCPpgxUgTnevzezhS3FIr4gnOQ+4lfemUf0Ig==
+supertokens-node@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/supertokens-node/-/supertokens-node-9.0.1.tgz#8b603cd9fd5afd42936a4fdae7556da7beee8141"
+  integrity sha512-pnMZBjyVVy6tcNlLBNiMlknez5FsvsfKp3sQG7wG1k+SI5v/yW3Iz3gZyaokVbL4pSov6rEhQygettnEyEngQw==
   dependencies:
     axios "0.21.4"
     body-parser "1.19.0"
@@ -3570,6 +3570,7 @@ supertokens-node@^8.4.0:
     jsonschema "1.4.0"
     jsonwebtoken "^8.5.1"
     jwks-rsa "^2.0.5"
+    libphonenumber-js "^1.9.44"
     psl "1.8.0"
     supertokens-js-override "^0.0.4"
     verify-apple-id-token "^2.1.0"
