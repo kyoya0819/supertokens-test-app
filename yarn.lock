@@ -589,6 +589,13 @@ agent-base@6:
   dependencies:
     debug "4"
 
+agent-base@6:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
+  integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+  dependencies:
+    debug "4"
+
 ajv@^6.10.0, ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
@@ -2713,10 +2720,10 @@ next@12.0.5:
     "@next/swc-win32-ia32-msvc" "12.0.5"
     "@next/swc-win32-x64-msvc" "12.0.5"
 
-nextjs-cors@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/nextjs-cors/-/nextjs-cors-2.1.0.tgz#99ba64a6b39cf980661153799d8337da25524933"
-  integrity sha512-FC1LJMebe6E9fQ3hapW/4Q6zpz1Xpq8O8A2mYWma3S5EY8BP/t+IiTFsHm8Js5lRNyJ3DzQG/3VQu9pTA2LS/Q==
+nextjs-cors@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/nextjs-cors/-/nextjs-cors-2.1.1.tgz#153072b7837dbfd2480cd5509c58f338cc57969c"
+  integrity sha512-HxE4w4Wng5VdTtnn0DWPphuWKwd1Ty+lpyTZ/sQGgaNnd5demYMchKf+W1LtI8YFYxu2HnRb3MrxERRV0QKLKA==
   dependencies:
     cors "^2.8.5"
 
