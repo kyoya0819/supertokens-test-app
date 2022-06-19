@@ -10,12 +10,12 @@
     },
     "dependencies": {
         "next": "12.0.5",
-        "nextjs-cors": "^2.1.0",
+        "nextjs-cors": "^2.1.1",
         "react": "17.0.2",
         "react-dom": "17.0.2",
         "sass": "^1.49.7",
         "supertokens-auth-react": "^0.18.5",
-        "supertokens-node": "^8.4.0"
+        "supertokens-node": "^9.3.0"
     },
     "devDependencies": {
         "@types/node": "17.0.14",
