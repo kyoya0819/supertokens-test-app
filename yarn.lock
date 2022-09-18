@@ -988,7 +988,7 @@ chokidar@3.5.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-chroma-js@^2.1.2:
+chroma-js@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-2.1.2.tgz#1075cb9ae25bcb2017c109394168b5cf3aa500ec"
   integrity sha512-ri/ouYDWuxfus3UcaMxC1Tfp3IE9K5iQzxc2hSxbBRVNQFut1UuGAsZmiAf2mOUubzGJwgMSv9lHg+XqLaz1QQ==
@@ -2111,12 +2111,12 @@ inline-style-prefixer@^6.0.0:
   dependencies:
     css-in-js-utils "^2.0.0"
 
-input-format@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/input-format/-/input-format-0.3.7.tgz#08d63fc629985d604d1910e1d1a220b7a521bdc3"
-  integrity sha512-hgwiCjV7MnhFvX4Hwrvk7hB2a2rcB2CQb7Ex7GlK1ISbEXuLtflwBUnadFSA1rVNDPFh9yWBaJJ4/o1XkzhPIg==
+input-format@^0.3.6:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/input-format/-/input-format-0.3.8.tgz#9445b0cab2f0457fbe36d77d607e942fd37345c5"
+  integrity sha512-tLR0XRig1xIcG1PtIpMd/uoltvkAI62CN9OIbtj4/tEJAkqTCQLNHUZ9N4M46w0dopny7Rlt/lRH5Xzp7e6F+g==
   dependencies:
-    prop-types "^15.7.2"
+    prop-types "^15.8.1"
 
 internal-slot@^1.0.3:
   version "1.0.3"
@@ -2397,7 +2397,12 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-libphonenumber-js@^1.9.43, libphonenumber-js@^1.9.44, libphonenumber-js@^1.9.47:
+libphonenumber-js@1.9.43:
+  version "1.9.43"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.9.43.tgz#2371e4383e6780990381d5b900b8c22666221cbb"
+  integrity sha512-tNB87ZutAiAkl3DE/Bo0Mxqn/XZbNxhPg4v9bYBwQQW4dlhBGqXl1vtmPxeDWbrijzwOA9vRjOOFm5V9SK/W3w==
+
+libphonenumber-js@^1.9.43, libphonenumber-js@^1.9.44:
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.10.6.tgz#a453efe9d692cc9457abb20a712dec34472a7164"
   integrity sha512-CIjT100/SmntsUjsLVs2t3ufeN4KdNXUxhD07tH153pdbaCWuAjv0jK/gPuywR3IImB/U/MQM+x9RfhMs5XZiA==
@@ -3008,7 +3013,7 @@ process@0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3158,15 +3163,15 @@ react-is@^16.13.1, react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-phone-number-input@^3.1.41:
-  version "3.1.46"
-  resolved "https://registry.yarnpkg.com/react-phone-number-input/-/react-phone-number-input-3.1.46.tgz#f25ba70ff83ffb413c824062c5b46f891ee451bc"
-  integrity sha512-afYl7BMy/0vMqWtzsZBmOgiPdqQAGyPO/Z3auorFs4K/zgFSBq3YoaASleodBkeRO/PygJ4ML8Wnb4Ce+3dlVQ==
+react-phone-number-input@3.1.41:
+  version "3.1.41"
+  resolved "https://registry.yarnpkg.com/react-phone-number-input/-/react-phone-number-input-3.1.41.tgz#350054100e1508d3ce054ce461ab892ad369323c"
+  integrity sha512-8ENhruRa7G7rkPUYylsP6S9nZOSwIqGo6n1amoAEsL0jSOMIs64P4Qh1psK7Dbb/LvgVApoBn9i/Qjzs8tJJ4A==
   dependencies:
     classnames "^2.2.5"
     country-flag-icons "^1.0.2"
-    input-format "^0.3.7"
-    libphonenumber-js "^1.9.47"
+    input-format "^0.3.6"
+    libphonenumber-js "^1.9.43"
     prop-types "^15.7.2"
 
 react-refresh@0.8.3:
@@ -3174,10 +3179,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-select@^5.2.1:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.2.2.tgz#3d5edf0a60f1276fd5f29f9f90a305f0a25a5189"
-  integrity sha512-miGS2rT1XbFNjduMZT+V73xbJEeMzVkJOz727F6MeAr2hKE0uUSA8Ff7vD44H32x2PD3SRB6OXTY/L+fTV3z9w==
+react-select@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.2.1.tgz#416c25c6b79b94687702374e019c4f2ed9d159d6"
+  integrity sha512-OOyNzfKrhOcw/BlembyGWgdlJ2ObZRaqmQppPFut1RptJO423j+Y+JIsmxkvsZ4D/3CpOmwIlCvWbbAWEdh12A==
   dependencies:
     "@babel/runtime" "^7.12.0"
     "@emotion/cache" "^11.4.0"
@@ -3187,10 +3192,10 @@ react-select@^5.2.1:
     prop-types "^15.6.0"
     react-transition-group "^4.3.0"
 
-react-shadow@^19.0.2:
-  version "19.0.2"
-  resolved "https://registry.yarnpkg.com/react-shadow/-/react-shadow-19.0.2.tgz#af2594efe467ffc8d24789022280a5d2f6fae9cb"
-  integrity sha512-v0XXiMwIDgnvtT1DX4DU7VRgJO1k1nItDuedvWAWMhHaahagcJti4ffliwdBGRb9O77TFUz0nNKPzNxQQ9y1Ow==
+react-shadow@19.0.3:
+  version "19.0.3"
+  resolved "https://registry.yarnpkg.com/react-shadow/-/react-shadow-19.0.3.tgz#4fa00f10cb1dfe2edd296684ff9807eef440ebb7"
+  integrity sha512-B1DoQC/rOyOjDdpgC1bd7nfhrYEF9ukV/vz8HcKaFTNmUkUmFnQCp4NHgEPxDfe3HJ1Mdr5ePzu+ZYAOvX6bNg==
   dependencies:
     humps "^2.0.1"
     react-use "^15.3.3"
@@ -3658,22 +3663,22 @@ stylis@4.0.13, stylis@^4.0.6:
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.0.13.tgz#f5db332e376d13cc84ecfe5dace9a2a51d954c91"
   integrity sha512-xGPXiFVl4YED9Jh7Euv2V220mriG9u4B2TA6Ybjc1catrstKD2PpIdU3U0RKpkVBC2EhmL/F0sPCr9vrFTNRag==
 
-supertokens-auth-react@^0.18.5:
-  version "0.18.5"
-  resolved "https://registry.yarnpkg.com/supertokens-auth-react/-/supertokens-auth-react-0.18.5.tgz#98ce9921f2893bcf436bc96205ea45ab74998ebd"
-  integrity sha512-ZAtb0gUHL+y8lIdvn4Qzw/HuvcAT5GNN69h1Reo2fRi+qSCfbAca65ykK1SQJCXMXTGmzh17yM4SNRkl4N51oQ==
+supertokens-auth-react@^0.25.1:
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/supertokens-auth-react/-/supertokens-auth-react-0.25.1.tgz#c8820a8d415fe626af538f178ce394c533756488"
+  integrity sha512-BfquUepmoOxbRe2E2Nb+qYB28Vqmeg5kSCLvWVxWNacaPTzPROCddE6nLgRILGYiqkpD2Z/RTN2PQauPl5sgUA==
   dependencies:
     "@emotion/react" "^11.4.1"
-    chroma-js "^2.1.2"
-    libphonenumber-js "^1.9.43"
+    chroma-js "2.1.2"
+    libphonenumber-js "1.9.43"
     prop-types "^15.7.2"
-    react-phone-number-input "^3.1.41"
-    react-select "^5.2.1"
-    react-shadow "^19.0.2"
+    react-phone-number-input "3.1.41"
+    react-select "5.2.1"
+    react-shadow "19.0.3"
     supertokens-js-override "^0.0.4"
-    supertokens-website "^10.0.4"
+    supertokens-web-js "^0.1.2"
 
-supertokens-js-override@^0.0.4:
+supertokens-js-override@0.0.4, supertokens-js-override@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/supertokens-js-override/-/supertokens-js-override-0.0.4.tgz#9af583fbc5e1f0195dbb358c4fcf75f44c76dc09"
   integrity sha512-r0JFBjkMIdep3Lbk3JA+MpnpuOtw4RSyrlRAbrzMcxwiYco3GFWl/daimQZ5b1forOiUODpOlXbSOljP/oyurg==
@@ -3697,10 +3702,18 @@ supertokens-node@^9.3.0:
     twilio "^3.76.0"
     verify-apple-id-token "^2.1.0"
 
-supertokens-website@^10.0.4:
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/supertokens-website/-/supertokens-website-10.0.6.tgz#8368fd3e23115b053a29427e40b42f0be3147661"
-  integrity sha512-iOqNCQZO9kQigxNhdQ4MYrt2ixs448UstsDmn++AaGWqRtpBH90EXit0aIHkRMUjek5y5NKqzUlE20VNH0B5ZQ==
+supertokens-web-js@^0.1.2:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/supertokens-web-js/-/supertokens-web-js-0.1.6.tgz#81165f9f7604518db05088a8a527c756b3b48178"
+  integrity sha512-Cyu97r6tRJc4ryiKhOqYlqYQ+1XB5x5rJfMudg0kgANu7bvNMo39mI4KAb4eLaXQfXAPQ6Y/As+uqUVP7gbKDw==
+  dependencies:
+    supertokens-js-override "0.0.4"
+    supertokens-website "^13.0.2"
+
+supertokens-website@^13.0.2:
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/supertokens-website/-/supertokens-website-13.1.0.tgz#cfd207399d6b81130427e5214763765cad85cff5"
+  integrity sha512-dX5EhkfdPb899EUgD0yAW9d5hWZbXk3iQ4VrP9oZud+CVjk94J5kpyJXN/MLoUAutwwDXebzb+VhOXM9YAslSQ==
   dependencies:
     browser-tabs-lock "^1.2.14"
     supertokens-js-override "^0.0.4"
